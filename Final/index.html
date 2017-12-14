@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ronny's Webpage</title>
+		<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	</head>
+
+	<body>
+		<div class="content">
+
+			<!--header-->
+			<div>
+				<img class="logo" src="images/Logo Christmas.png" alt="Christmas logo with festive features for the name Ronny" width="300px" height="300px">
+			</div> 
+
+			<div id="size" class="slideshow">
+				
+				<img class="mySlides" src="images/Golem.png" alt="Four Elemental Golems: Fire, Ice, Water, Earth" width="800px" height="183px">
+
+				<img class="mySlides" src="images/Happy1.png" alt="Cartoonish fight" width="800px" height="183px">
+
+				<img class="mySlides" src="images/Lone.png" alt="unfinished sketch of man on horse in forest" width="800px" height="183px">
+
+			</div>
+				
+			<script>
+  				var myIndex = 0;
+  				carousel();
+
+  				function carousel() {
+    				var slides = document.getElementsByClassName("mySlides");
+    				for (var i = 0; i < slides.length; i++) {
+       					slides[i].style.display = "none";    
+    				}
+    					myIndex++;
+    					if (myIndex > slides.length) {myIndex = 1}    
+    					slides[myIndex-1].style.display = "block";  
+    					setTimeout(carousel, 3000); // Change image every 2 seconds
+  					}
+			</script>
+
+				<center>
+
+					<h3> <a href="index.html">Home</a> | <a href="templates/gallery.html">Gallery</a> | <a href="templates/bio.html">Bio</a> | <a href="templates/video.html">Videos</a> | <a href="templates/contact.html">Contact Info</a> </h3>
+
+				</center>
+
+				<br>
+
+					<h2>About This Site:</h2>
+
+
+					<h3>This site is all about me myself and I, feel free to look around as I have a lot of cool things to show you. This is my virtual portfolio and I hope you enjoy what you view. You are about to view mainly my artwork and not much on game design other than certain bits of concept art in the site. At the end of the page in the tab "Contact Info" you will have direct access to the forms of social media I am normally on.</h3>
+
+				<br>
+
+				<br>
+
+				<br>
+				<center>
+
+					<iframe width="640px" height="480px" src="https://www.youtube.com/embed/1DD_NCM_RJs">
+		
+				</center>
+
+
+		</div>
+	</body>
+</html>
