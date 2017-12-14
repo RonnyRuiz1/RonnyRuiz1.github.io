@@ -1,0 +1,71 @@
+body {
+    background-color: #91021f;
+    background-image: url('../images/christmas.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.content {
+    max-width: 960px;
+    height: 1000px;
+    margin: auto;
+    background-color: #064210;
+}
+
+.title1 {
+	color: #ffffff;
+	text-align: center;
+	font-family: impact;
+}
+
+#sub1 {
+	background-color: #064210;
+}
+
+/*img {
+	display: block;
+	margin: auto;
+	width: 95%;
+}*/
+
+h2 {
+	color: #ffffff;
+	font-family: arial;
+	text-align: center;
+}
+
+h1 {
+	color: #ffffff;
+	font-family: arial;
+}
+
+.logo {
+    position: center;
+    width: auto;
+    height: 300px;
+    display: block;
+    margin: auto;
+
+}
+
+/*s*/
+
+#icons {
+	display: inline-block;
+}
+
+.bio {
+	display: inline-block;
+}
+
+#fit {
+	width: 35%;
+}
+
+#fit2 {
+	width: 35%;
+}
+
+#ig {
+	clear: left;
+}
